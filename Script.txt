@@ -1,0 +1,8 @@
+Browse("www.google.com");
+
+SetInputField(0, "q", "Scott Vermeersch");
+Submit(0);
+
+Print(False);
+
+Msg(Search for Vermeersch at Google.com Printed,Finished);
